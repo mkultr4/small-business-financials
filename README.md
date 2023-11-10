@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+# Small Business Financials
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Horizon UI is a React-based web application that serves as an admin dashboard. It features a responsive layout, Chakra UI styling, and utilizes various libraries for routing and state management.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Chakra UI Styling:** The application utilizes ChakraProvider to apply a consistent Chakra UI theme throughout the UI components.
+- **Horizon UI:** Use Horizon UI for template (https://www.horizon-ui.com/).
+- **React Router Navigation:** React Router is used for declarative navigation, allowing for a smooth and dynamic user experience.
+- **Recoil State Management:** RecoilRoot is implemented for managing global state using Recoil, making it easy to share state between components.
+- **Admin Layout:** The `AdminLayout` component provides the overall structure for the admin dashboard, including a sidebar, navbar, and main content area.
+- **Dynamic Route Rendering:** Routes are dynamically rendered based on the defined routes array, enhancing maintainability.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/mkultr4/small-business-financials
+```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd small-business-financials
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To start the application, run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This will launch the application in development mode, and you can access it in your browser at `http://localhost:3000`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Folder Structure
 
-## Learn More
+```lua
+small-business-financials/
+|-- src/
+|   |-- components/
+|   |   |-- calendar/
+|   |   |-- card/
+|   |   |-- ... other components
+|   |
+|   |-- layouts/
+|   |-- routes/
+|   |-- styles/
+|   |-- theme/
+|   |-- App.tsx
+|   |-- routes.ts
+|   |-- index.tsx
+|
+|-- public/
+|-- README.md
+|-- package.json
+|-- ... other configuration files
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **components:** Contains reusable UI components.
+- **hooks:** Custom hooks used throughout the application.
+- **layouts:** Layout components for organizing the overall structure of the application.
+- **routes:** Configuration for defining application routes.
+- **theme:** Chakra UI theme configuration.
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have a feature request, please open an issue. If you'd like to contribute code, please fork the repository and create a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
