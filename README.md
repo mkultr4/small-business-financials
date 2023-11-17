@@ -85,6 +85,9 @@ small-business-financials/
 
 Contributions are welcome! If you find a bug or have a feature request, please open an issue. If you'd like to contribute code, please fork the repository and create a pull request.
 
+## Demo
+[Demo app](https://mkultr4.github.io/small-business-financials)
+
 ## License
 
 This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
