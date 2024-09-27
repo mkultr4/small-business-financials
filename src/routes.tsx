@@ -20,7 +20,7 @@ export interface Route {
 const routes: Route[] = [
   {
     name: "Main Dashboard",
-    path: "/",
+    path: "/default",
     icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
     component: <DefaultView />,
   },
