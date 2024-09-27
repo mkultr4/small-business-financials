@@ -42,7 +42,7 @@ function App() {
                     />
                   );
                 })}
-                <Route path="*" element={<Navigate to="/default" replace />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </AdminLayout>
           </BrowserRouter>
