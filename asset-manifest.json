@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/small-business-financials/static/css/main.8be49128.css",
-    "main.js": "/small-business-financials/static/js/main.4670eaaf.js",
+    "main.css": "/small-business-financials/static/css/main.f1b23a5f.css",
+    "main.js": "/small-business-financials/static/js/main.7f0c7c72.js",
     "static/js/787.1a1ea1b3.chunk.js": "/small-business-financials/static/js/787.1a1ea1b3.chunk.js",
     "index.html": "/small-business-financials/index.html",
-    "main.8be49128.css.map": "/small-business-financials/static/css/main.8be49128.css.map",
-    "main.4670eaaf.js.map": "/small-business-financials/static/js/main.4670eaaf.js.map",
+    "main.f1b23a5f.css.map": "/small-business-financials/static/css/main.f1b23a5f.css.map",
+    "main.7f0c7c72.js.map": "/small-business-financials/static/js/main.7f0c7c72.js.map",
     "787.1a1ea1b3.chunk.js.map": "/small-business-financials/static/js/787.1a1ea1b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8be49128.css",
-    "static/js/main.4670eaaf.js"
+    "static/css/main.f1b23a5f.css",
+    "static/js/main.7f0c7c72.js"
   ]
 }
